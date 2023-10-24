@@ -130,11 +130,17 @@ namespace C__dz1_geometria
 			{
 				for (int j = 0; j < col; j++)
 				{
-					if (i % 2 == 0 && j % 2 == 0)
-					{
-						Console.Write(symbol);
-					}
-					else if (i % 2 != 0 && j % 2 != 0)
+
+					//if (i % 2 == 0 && j % 2 == 0)
+					//{
+					//	Console.Write(symbol);
+					//}
+					//else if (i % 2 != 0 && j % 2 != 0)
+					//{
+					//	Console.Write(symbol);
+					//}
+
+					if (i % 2 ==  j % 2)
 					{
 						Console.Write(symbol);
 					}
